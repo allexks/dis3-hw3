@@ -1,1 +1,22 @@
-\int_0^\frac{1}{4}e^{-x^2}dx = \frac{\sqrt\pi}{2}erf(x)\biggr\rvert_0^\frac{1}{4} = \sum_{n=0}^{\infty} \frac{(-1)^nx^{2n+1}}{n!(2n+1)}\biggr\rvert_0^\frac{1}{4} \approx 0.2449
+\documentclass{article}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[bulgarian]{babel}
+
+\title{Курсова работа №3}
+\author{Александър Игнатов \\ Ф№ 62136 }
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{gather*}
+    \int_0^\frac{1}{4}e^{-x^2}dx = \int_{0}^{\frac{1}{4}} \sum_{n=1}^{\infty} \frac{-x^{2n}}{n!}  \,dx = \sum_{n=1}^{\infty} \frac{-1}{n!} \int_{0}^{\frac{1}{4}} x^{2n} \,dx  =\sum_{n=0}^{\infty} \frac{(-1)^nx^{2n+1}}{n!(2n+1)}\biggr\rvert_0^\frac{1}{4} \approx 0.2449
+\end{gather*}
+
+\end{document}
+

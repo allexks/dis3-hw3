@@ -3,6 +3,7 @@
 ## Solution
 
 ![Solution](solution.svg)
+![Solution-Dark](solution-dark.svg)
 
 ## How to run
 

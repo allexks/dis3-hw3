@@ -1,10 +1,10 @@
-# Calculus 3, Homework 3
+# Курсова работа №3
 
-## Solution
+## Решение
 
 ![Solution](solution.svg)
 ![Solution-Dark](solution-dark.svg)
 
-## How to run
+## Изпълнение
 
 `python3 solution.py`
